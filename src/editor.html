@@ -1,0 +1,32 @@
+<template>
+    <require from="libvantage/vantage.css"></require>
+    <style>
+        v-selection {
+            max-width: 270px;
+        }  
+		v-number input {           
+            width: 140px;            
+        }  
+</style>
+   <header>Vault</header>
+    <card label="Vault">
+          <v-button click.delegate="unlockAllRooms()">Unlock All Rooms</v-button>
+          <v-button click.delegate="unlockAllRecipes()">Unlock All Recipes</v-button>          
+          <v-button click.delegate="unlockAllThemes()">Unlock All Themes</v-button>       
+          <v-button click.delegate="removeAllRocks()">Remove All Rocks</v-button>           
+          <v-button click.delegate="clearRoomEmergencies()">Clear Room Emergencies</v-button>     
+	</card>        
+     <card>         
+    <v-tree nodes.bind="vaultNodes" view-model.ref="vaultTree"></v-tree> 
+    </card>   
+   <header>Dwellers</header>     
+    <card label="Dwellers">
+          <v-button click.delegate="healDwellers()">Heal All Dwellers</v-button>
+          <v-button click.delegate="maxDwellerHappiness()">Max Dweller Happiness</v-button>
+          <v-button click.delegate="maxAllDwellerStats()">Max Dweller Stats</v-button>    
+          <v-button click.delegate="clearWaitingDwellers()">Clear Waiting Dwellers</v-button>     
+    </card>                          
+   <card>     
+    <v-tree nodes.bind="dwellerNodes" view-model.ref="dwellerTree"></v-tree> 
+    </card>
+</template>

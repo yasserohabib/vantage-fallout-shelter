@@ -1,0 +1,23 @@
+export default
+[
+      "StorageUnlock",
+      "MedbayUnlock",
+      "SciencelabUnlock",
+      "OverseerUnlock",
+      "RadioStationUnlock",
+      "WeaponFactoryUnlock",
+      "GymUnlock",
+      "DojoUnlock",
+      "ArmoryUnlock",
+      "ClassUnlock",
+      "OutfitFactoryUnlock",
+      "CardioUnlock",
+      "BarUnlock",
+      "GameRoomUnlock",
+      "BarberShopUnlock",
+      "PowerPlantUnlock",
+      "WaterroomUnlock",
+      "HydroponicUnlock",
+      "NukacolaUnlock",
+      "DesignFactoryUnlock"
+];
