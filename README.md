@@ -3,9 +3,9 @@
 
 ## Made using the tools from Vantage
 
-https://github.com/vantagemods
+[Vantage GitHub](https://github.com/vantagemods)
 
-[Vantage Website](https://github.com/vantagemods)
+[Vantage Website](https://vantagemods.com)
 
 ## Thanks to rakion99 and MobileSam
 
