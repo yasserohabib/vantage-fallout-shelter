@@ -55,7 +55,7 @@ export class Editor {
                         this.createStatNode('currentLevel', 'Level', dweller.experience),
                         this.createTextColorNode('skinColor', 'Skin Color', dweller),
                         this.createTextColorNode('hairColor', 'Hair Color', dweller),
-                        this.createTextColorNode('outfitColor', 'Outfi Color', dweller),
+                        this.createTextColorNode('outfitColor', 'Outfit Color', dweller),
                         {
                             id : "special",
                             name : "S.P.E.C.I.A.L",
