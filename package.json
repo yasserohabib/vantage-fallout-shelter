@@ -2,7 +2,7 @@
   "name": "editor-fallout-shelter",
   "author": "unknown",
   "description": "Fallout Shelter Vault mods.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "vantage": {
     "game": "Fallout Shelter",
     "scid": "00000000-0000-0000-0000-00007facc08d",

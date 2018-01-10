@@ -1,7 +1,6 @@
 import * as CryptoJS  from 'crypto-js';
 import { Dweller } from './dweller';
-import { observable } from 'aurelia-framework';
-import {computedFrom} from 'aurelia-framework';
+import { observable, computedFrom } from 'aurelia-framework';
 import rooms from './rooms';
 import recipes from './recipes';
 import {Tree, TreeNode, TreeComponent} from 'libvantage';
